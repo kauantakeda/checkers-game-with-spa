@@ -1,0 +1,11 @@
+[33mcommit 813b0475f722c580eeb14454909e922a4ca43b6b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Kauan Takeda <kauan.takeda@creditas.com.br>
+Date:   Mon Mar 2 13:25:44 2020 -0300
+
+    deleted default files
+
+[33mcommit 2eb4315749ad7fa0b92242d192175aa503cffa4c[m
+Author: Kauan Takeda <kauan.takeda@creditas.com.br>
+Date:   Fri Feb 21 14:12:27 2020 -0300
+
+    Initialize project using Create React App
