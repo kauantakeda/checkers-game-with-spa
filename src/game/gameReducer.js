@@ -1,4 +1,4 @@
-function gameReducer (state, action) {
+const gameReducer = (state, action) => {
     switch (action.type) {
         case 'NEW_PLAY':
             return {

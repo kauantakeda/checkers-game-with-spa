@@ -2,10 +2,10 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import './game.css';
 
-function Square(props) {
+const Square = ( {buttonClassName, onClick, value} ) => {
     return (
-        <button className={props.buttonClassName} onClick={props.onClick}>
-            <Grid item class={props.value} />
+        <button className={buttonClassName} onClick={onClick}>
+            <Grid item class={value} />
         </button>
     );
 }

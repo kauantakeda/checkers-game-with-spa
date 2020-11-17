@@ -1,7 +1,7 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Board from './board';
-import { defineTableChanges, calculateWinner } from './gameLogic';
+import { defineTableChanges, calculateWinner } from '../utils/gameLogic';
 import { gameReducer } from './gameReducer'
 import { GAME_INITIAL_STATE } from './gameInitialState'
 
@@ -50,8 +50,5 @@ function Game() {
         </Grid>
     );
 }
-
-// ============================================================
-
 
 export default Game;
